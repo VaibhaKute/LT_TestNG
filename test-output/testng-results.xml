@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="3" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-22T13:05:18 IST" name="LT_TestNG" finished-at="2025-11-22T13:07:23 IST" duration-ms="124754">
+    <groups>
+    </groups>
+    <test started-at="2025-11-22T13:05:18 IST" name="Firefox on Windows 11" finished-at="2025-11-22T13:06:59 IST" duration-ms="100764">
+      <class name="LambdaTest.LT_TestNG.window_10_FFox_TNg">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:05:19 IST" name="setUp" finished-at="2025-11-22T13:05:45 IST" duration-ms="26591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario1()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:05:45 IST" name="Scenario1" finished-at="2025-11-22T13:05:52 IST" duration-ms="7000" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at LambdaTest.LT_TestNG.window_10_FFox_TNg.Scenario1(window_10_FFox_TNg.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:05:52 IST" name="tearDown" finished-at="2025-11-22T13:05:53 IST" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:05:53 IST" name="setUp" finished-at="2025-11-22T13:06:19 IST" duration-ms="26099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario2()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:06:19 IST" name="Scenario2" finished-at="2025-11-22T13:06:24 IST" duration-ms="5110" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #isAgeSelected
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [56d34cdb-5b69-4a59-bf50-8f00355a296f, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3424, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 56d34cdb-5b69-4a59-bf50-8f00355a296f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #isAgeSelected
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [56d34cdb-5b69-4a59-bf50-8f00355a296f, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0.1, moz:accessibilityChecks: false, moz:buildID: 20240913135723, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3424, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 56d34cdb-5b69-4a59-bf50-8f00355a296f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at LambdaTest.LT_TestNG.window_10_FFox_TNg.Scenario2(window_10_FFox_TNg.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:06:24 IST" name="tearDown" finished-at="2025-11-22T13:06:26 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:06:26 IST" name="setUp" finished-at="2025-11-22T13:06:52 IST" duration-ms="26284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[130]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario3()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:06:52 IST" name="Scenario3" finished-at="2025-11-22T13:06:58 IST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_FFox_TNg@54d9d12d]" started-at="2025-11-22T13:06:58 IST" name="tearDown" finished-at="2025-11-22T13:06:59 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LambdaTest.LT_TestNG.window_10_FFox_TNg -->
+    </test> <!-- Firefox on Windows 11 -->
+    <test started-at="2025-11-22T13:05:18 IST" name="Chrome on Windows 10" finished-at="2025-11-22T13:07:05 IST" duration-ms="106269">
+      <class name="LambdaTest.LT_TestNG.window_10_Chrome_TNg">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:05:19 IST" name="setUp" finished-at="2025-11-22T13:05:37 IST" duration-ms="18690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario1()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:05:37 IST" name="Scenario1" finished-at="2025-11-22T13:05:42 IST" duration-ms="5038" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at LambdaTest.LT_TestNG.window_10_Chrome_TNg.Scenario1(window_10_Chrome_TNg.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:05:42 IST" name="tearDown" finished-at="2025-11-22T13:05:42 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:05:42 IST" name="setUp" finished-at="2025-11-22T13:06:10 IST" duration-ms="27248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario2()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:06:10 IST" name="Scenario2" finished-at="2025-11-22T13:06:14 IST" duration-ms="4359" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#isAgeSelected"}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0ea86db39de358caae72bed83b6e2a98, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ea86db39de358caae72bed83b6e2a98]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#isAgeSelected"}
+  (Session info: chrome=128.0.6613.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0ea86db39de358caae72bed83b6e2a98, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ea86db39de358caae72bed83b6e2a98
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at LambdaTest.LT_TestNG.window_10_Chrome_TNg.Scenario2(window_10_Chrome_TNg.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:06:14 IST" name="tearDown" finished-at="2025-11-22T13:06:14 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:06:14 IST" name="setUp" finished-at="2025-11-22T13:06:59 IST" duration-ms="44674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[128.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario3()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:06:59 IST" name="Scenario3" finished-at="2025-11-22T13:07:04 IST" duration-ms="5471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.window_10_Chrome_TNg@8f4ea7c]" started-at="2025-11-22T13:07:04 IST" name="tearDown" finished-at="2025-11-22T13:07:05 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LambdaTest.LT_TestNG.window_10_Chrome_TNg -->
+    </test> <!-- Chrome on Windows 10 -->
+    <test started-at="2025-11-22T13:05:18 IST" name="Edge on macOS Ventura" finished-at="2025-11-22T13:07:14 IST" duration-ms="115200">
+      <class name="LambdaTest.LT_TestNG.mac_Edge_TNg">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:05:19 IST" name="setUp" finished-at="2025-11-22T13:05:51 IST" duration-ms="32557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario1()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:05:51 IST" name="Scenario1" finished-at="2025-11-22T13:05:55 IST" duration-ms="4147" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at LambdaTest.LT_TestNG.mac_Edge_TNg.Scenario1(mac_Edge_TNg.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:05:55 IST" name="tearDown" finished-at="2025-11-22T13:05:55 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:05:55 IST" name="setUp" finished-at="2025-11-22T13:06:26 IST" duration-ms="30613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario2()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:06:26 IST" name="Scenario2" finished-at="2025-11-22T13:06:32 IST" duration-ms="5647" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#isAgeSelected"}
+  (Session info: MicrosoftEdge=127.0.2651.74)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [59b49e6fa0fbbad59b87ba5e16d5a21d, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49632}, msedge: {msedgedriverVersion: 127.0.2651.74 (dbf5b0aa014c..., userDataDir: /var/folders/k9/8klndb996n3...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59b49e6fa0fbbad59b87ba5e16d5a21d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#isAgeSelected"}
+  (Session info: MicrosoftEdge=127.0.2651.74)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [59b49e6fa0fbbad59b87ba5e16d5a21d, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.74, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49632}, msedge: {msedgedriverVersion: 127.0.2651.74 (dbf5b0aa014c..., userDataDir: /var/folders/k9/8klndb996n3...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59b49e6fa0fbbad59b87ba5e16d5a21d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at LambdaTest.LT_TestNG.mac_Edge_TNg.Scenario2(mac_Edge_TNg.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:06:32 IST" name="tearDown" finished-at="2025-11-22T13:06:32 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:06:32 IST" name="setUp" finished-at="2025-11-22T13:07:09 IST" duration-ms="36662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[127.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario3()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:07:09 IST" name="Scenario3" finished-at="2025-11-22T13:07:13 IST" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.mac_Edge_TNg@6c6cb480]" started-at="2025-11-22T13:07:13 IST" name="tearDown" finished-at="2025-11-22T13:07:14 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LambdaTest.LT_TestNG.mac_Edge_TNg -->
+    </test> <!-- Edge on macOS Ventura -->
+    <test started-at="2025-11-22T13:05:18 IST" name="Internet Explorer on Windows 10" finished-at="2025-11-22T13:07:23 IST" duration-ms="124754">
+      <class name="LambdaTest.LT_TestNG.windows_10_IE_TNg">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:05:19 IST" name="setUp" finished-at="2025-11-22T13:06:01 IST" duration-ms="41967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario1()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:01 IST" name="Scenario1" finished-at="2025-11-22T13:06:05 IST" duration-ms="4679" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Page Title is not as expected! expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at LambdaTest.LT_TestNG.windows_10_IE_TNg.Scenario1(windows_10_IE_TNg.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:05 IST" name="tearDown" finished-at="2025-11-22T13:06:05 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:05 IST" name="setUp" finished-at="2025-11-22T13:06:35 IST" duration-ms="30108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario2()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:35 IST" name="Scenario2" finished-at="2025-11-22T13:06:41 IST" duration-ms="5565" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with css selector == #isAgeSelected
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [20e87963-b446-47f2-aa2f-ab3943e11abf, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 20e87963-b446-47f2-aa2f-ab3...}
+Session ID: 20e87963-b446-47f2-aa2f-ab3943e11abf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == #isAgeSelected
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [20e87963-b446-47f2-aa2f-ab3943e11abf, findElement {value=isAgeSelected, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 20e87963-b446-47f2-aa2f-ab3...}
+Session ID: 20e87963-b446-47f2-aa2f-ab3943e11abf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at LambdaTest.LT_TestNG.windows_10_IE_TNg.Scenario2(windows_10_IE_TNg.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:41 IST" name="tearDown" finished-at="2025-11-22T13:06:41 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:06:41 IST" name="setUp" finished-at="2025-11-22T13:07:17 IST" duration-ms="36054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vaibhavkkute]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[LT_puVK3H0sDdDhOAVw3JGcDx3IyTv24hU8WyRDrUtbswP0CE4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Scenario3()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:07:17 IST" name="Scenario3" finished-at="2025-11-22T13:07:23 IST" duration-ms="5874" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[No alert is active
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3caec50d-031a-4629-a4da-0ff413cddc6a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 3caec50d-031a-4629-a4da-0ff...}
+Session ID: 3caec50d-031a-4629-a4da-0ff413cddc6a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: No alert is active
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3caec50d-031a-4629-a4da-0ff413cddc6a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:41000/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 3caec50d-031a-4629-a4da-0ff...}
+Session ID: 3caec50d-031a-4629-a4da-0ff413cddc6a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1194)
+at LambdaTest.LT_TestNG.windows_10_IE_TNg.Scenario3(windows_10_IE_TNg.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LambdaTest.LT_TestNG.windows_10_IE_TNg@292b08d6]" started-at="2025-11-22T13:07:23 IST" name="tearDown" finished-at="2025-11-22T13:07:23 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LambdaTest.LT_TestNG.windows_10_IE_TNg -->
+    </test> <!-- Internet Explorer on Windows 10 -->
+  </suite> <!-- LT_TestNG -->
+</testng-results>
